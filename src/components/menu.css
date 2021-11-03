@@ -1,0 +1,28 @@
+.product-table {
+    max-width: 100%;
+    border: solid black 2px;
+    width: 750px;
+    height: 35vh;
+    text-align: center;
+}
+
+.row-title {
+    border: solid black 2px;
+    background-color: rgb(213, 185, 241);
+}
+
+.product-row {
+    background-color: rgb(187, 185, 185);
+    font-size: 25px;
+}
+
+img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bolder;
+}
