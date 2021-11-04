@@ -7,9 +7,6 @@ class App extends Component {
   render() {
     return (
       <div className="App" id="root">
-        <h1>BurgersNFries</h1>
-        <header className="header">
-        </header>
 
         <ProductMenu/>
 
@@ -17,7 +14,6 @@ class App extends Component {
     );
 
   }
-
 }
 
 export default App;

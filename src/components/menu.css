@@ -1,14 +1,43 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin:3rem;
+}
+
+
+.message-box {
+    max-width: 100%;
+    margin: 2rem;
+    flex: 100%;
+    text-align: center;
+    background-color: rgb(197, 197, 186);
+}
+
+.cart {
+    flex: 100%;
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
 .product-table {
     max-width: 100%;
     border: solid black 2px;
-    width: 750px;
+    
     height: 35vh;
     text-align: center;
+    flex: 50%;
 }
 
 .row-title {
     border: solid black 2px;
-    background-color: rgb(213, 185, 241);
+    background-color: rgb(95, 0, 0);
+    text-transform: uppercase;
+    color: azure;
 }
 
 .product-row {
@@ -16,10 +45,22 @@
     font-size: 25px;
 }
 
-img {
+.product-img {
     padding: 10px;
     width: 200px;
     height: 200px;
+    
+}
+
+.beer-img {
+    padding: 10px;
+    width: 200px;
+    height: 500px;
+}
+
+.enjoy-msg {
+    font-size: 16px;
+    padding: 0 1rem 0 1rem;
 }
 
 .total {
